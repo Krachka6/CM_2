@@ -3,7 +3,7 @@
 #include <cstdio>
 
 #include "Cubic_Interpolation_Spline_1D.h"
-double f0(double x)
+double f0(double x)  //Дана функция x^3 - x^2
 {
     return x * x * x - x * x;
 }
